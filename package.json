@@ -1,0 +1,31 @@
+{
+  "name": "greats",
+  "version": "1.0.0",
+  "description": "landing page for greats",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css --watch",
+    "compile:sass": "node-sass sass/main.scss css/style.comp.css",
+    "prefix:css": "postcss --use autoprefixer -b last versions' css/style.comp.css -o css/style.prefix.css",
+    "compress:css": "node-sass css/style.prefix.css css/style.css --output-style compressed",
+    "build:css": "npm-run-all compile:sass prefix:css compress:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edelamaza/greats.git"
+  },
+  "author": "esteban",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edelamaza/greats/issues"
+  },
+  "homepage": "https://github.com/edelamaza/greats#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.8.4",
+    "concat": "^1.0.3",
+    "node-sass": "^4.14.1",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^7.1.1"
+  },
+  "dependencies": {}
+}
