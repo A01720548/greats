@@ -1,12 +1,7 @@
 .header {
-
-    &__heading-primary {
-        font-size: 20rem;
-    }
-
-    &__paragraph {
-
-
-    }
-
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
 }
