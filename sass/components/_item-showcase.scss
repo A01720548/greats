@@ -1,0 +1,37 @@
+.item-showcase {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+
+    &:not(:last-child) {
+        margin-right: 1.5rem;
+    }
+
+    &__caption {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__img {
+        height: 20rem;
+
+        &--big  {
+            height: 30rem;
+        }
+    
+    }
+
+    &__name {
+        font-weight: 500;
+    }
+
+    &__color {
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    &__price {
+        font-weight: 500;
+    }
+
+
+}
