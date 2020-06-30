@@ -1,0 +1,38 @@
+.section-features {
+
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+
+    &:not(:last-child) {
+        margin-right: 1.5rem;
+    }
+
+    &__caption {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    &__name {
+        font-weight: 700;
+
+    }
+
+    &__description {
+        font-weight: 400;
+        width: 50rem;
+        flex-wrap: wrap;
+        hyphens: auto;
+    }
+
+    &__img {
+        width: 50rem;
+        height: 35rem;
+        object-fit: cover;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: black;
+    }
+}
