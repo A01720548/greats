@@ -25,7 +25,7 @@
     }
     
 
-    &-black {
+    &--black {
         color: white;
         outline: solid 1px black;
         background: linear-gradient(to right, transparent 50%, black 50%);
@@ -38,4 +38,53 @@
         }
     }
 
+    &--white {
+        color: black;
+        outline: solid 1px white;
+        background: linear-gradient(to right, black 50%, white 50%);
+        background-size: 200% 100%;
+        background-position: right bottom;
+
+        &:hover {
+            color: white;
+            background-position: left bottom;    
+        }
+    }
+
+    
+
+}
+
+.btn--thin {
+
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    width: 13rem;
+    color: black;
+    outline: none;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    margin-bottom: 5rem;
+    position: relative;
+
+
+
+    &::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 2px;
+        background: #000;
+        transition: width .3s;
+        position: absolute;
+        bottom: 0;
+    }
+    
+    &:hover::after {
+        width: 0;
+        right: 0;
+
+    }
 }
