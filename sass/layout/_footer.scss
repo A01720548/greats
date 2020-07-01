@@ -1,0 +1,76 @@
+.footer {
+    background-color: black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5rem 0;
+
+    & > * {
+        display: flex;
+        justify-content: space-around;
+        margin: 1rem 0;
+    }
+
+
+   
+
+    &__paragraph {
+        color: $color-grey;
+        font-size: 1.3rem;
+        font-weight: 400;
+        line-height: 1.8rem;
+    }
+
+    &__form {
+        &--input {
+            background-color: black;
+            outline: 1px solid white;
+            height: 3rem;
+            width: 20rem;
+        }
+    }
+
+    &__list {
+        list-style: none;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: $color-grey;
+        font-weight: 400;
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+        color: $color-grey-2;
+    }
+
+    &__copyright {
+        display: flex;
+        
+        & > * {
+            &:not(:last-of-type) {
+                margin-right: 1rem;
+            }
+        }
+
+        &__paragraph--bold { 
+            font-weight: 500;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            color: white;
+        }
+
+        &--link {
+            color: $color-grey-2;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            font-weight: 500;
+            text-decoration: none;
+        }
+
+    }
+
+
+
+
+}
