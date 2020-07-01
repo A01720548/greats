@@ -4,4 +4,21 @@
     display: flex;
     justify-content: space-between;
     color: white;
+    transition: background-color .2s;
+
+    &__sticky {
+        background-color: white;
+        color: black;
+
+        .navigation__logo {
+            display: none;
+
+            &--black {
+                display: block;
+        }
+    }
+
+    }
+
 }
+

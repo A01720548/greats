@@ -3,18 +3,33 @@
     list-style: none;
     background-color: transparent;
     padding: 3rem;
+    justify-content: center;
+    align-items: center;
 
 
     &__item {
         &:not(:last-child) {
-            padding-right: 3rem;
+        padding-right: 3rem;
         }
     }
     &__link {
-        
-        text-transform: uppercase;
+        font-size: 1.3rem;
+        font-weight: 500;
+        line-height: 1.8rem;
+
         text-decoration: none;
         color: inherit;
 
     }
+
+    &__logo {
+        height: 2rem;
+
+        &--black {
+            display: none;
+        }
+    }
+
+    
 }
+

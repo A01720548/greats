@@ -274,19 +274,35 @@ body {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  color: white; }
+  color: white;
+  transition: background-color .2s; }
+  .header__sticky {
+    background-color: white;
+    color: black; }
+    .header__sticky .navigation__logo {
+      display: none; }
+      .header__sticky .navigation__logo--black {
+        display: block; }
 
 .navigation {
   display: flex;
   list-style: none;
   background-color: transparent;
-  padding: 3rem; }
+  padding: 3rem;
+  justify-content: center;
+  align-items: center; }
   .navigation__item:not(:last-child) {
     padding-right: 3rem; }
   .navigation__link {
-    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.8rem;
     text-decoration: none;
     color: inherit; }
+  .navigation__logo {
+    height: 2rem; }
+    .navigation__logo--black {
+      display: none; }
 
 .section-best-sellers {
   display: flex;
