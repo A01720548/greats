@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-    <!--<link rel="stylesheet" href="css/icon-font.css"> -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/icon.css">
     <link rel="shortcut icon" type="image/png" href="img/favicon.png">
 
     <title>Premium Sneakers. Free Shipping</title>
@@ -46,6 +46,10 @@
             </div>
         </section>
         <section class="section-best-sellers js--section-best-sellers">
+            <div class="section-best-sellers__buttons">
+                <button class="btn--thin">Men's</button>
+                <button class="btn--inactive">Women's</button>
+            </div>
             <h3 class="heading-tertiary u-margin-bottom-medium">Check out our best sellers.</h3>
             <div class="section-best-sellers__items">
                 <figure class="item-showcase">
@@ -159,7 +163,7 @@
                     </figcaption>
                 </figure>
             </div>
-            <button class="btn btn--black">Shop All Men's</button>
+            <button class="btn btn--black u-margin-top-medium">Shop All Men's</button>
 
         </section>
 
@@ -256,7 +260,10 @@
 
         <section class="section-social">
             <div class="section-social__header">
-                <p class="section-social__logo-text">Greats</p>
+                <p class="section-social__logo-text">
+                    <svg class="section-social__icon">
+                    <use xlink:href="img/sprite.svg#icon-instagram"></use>
+                </svg>Greats</p>
                 <p class="section-social__phrase">We Love A Game of Tag #thegreatest</p>
             </div>
             <div class="section-social__pictures">
@@ -289,17 +296,15 @@
     <footer class="footer">
         <div class="footer__top">
             <div class="footer__top--left">
-                <h3 class="heading-quarternary">Get Updates</h3>
-                <p class="footer__paragraph">Sign up for Greats news and receive 25% <br> off your first purchase.</p>
+                <h3 class="heading-quarternary u-margin-bottom-small">Get Updates</h3>
+                <p class="footer__paragraph u-margin-bottom-small">Sign up for Greats news and receive 25% <br> off your first purchase.</p>
                 <form action="#" class="footer__form">
                     <input type="email" class="footer__form--input" id="email" placeholder="Email Address">
                     <button class="btn btn--white">Sign Up</button>
                 </form>
             </div>
-           
-
             <div class="footer__top--middle">
-                <h5 class="heading-fifth">About Us</h5>
+                <h5 class="heading-fifth u-margin-bottom-small">About Us</h5>
                 <ul class="footer__list">
                     <li class="footer__item"><a href="#" class="footer__link">Our Story</a></li>
                     <li class="footer__item"><a href="#" class="footer__link">Responsibility</a></li>
@@ -311,7 +316,7 @@
             </div>
 
             <div class="footer__top--right">
-                <h5 class="heading-fifth">Customer Service</h5>
+                <h5 class="heading-fifth u-margin-bottom-small">Customer Service</h5>
                 <ul class="footer__list">
                     <li class="footer__item"><a href="#" class="footer__link">Live Chat</a></li>
                     <li class="footer__item"><a href="#" class="footer__link">FAQ</a></li>
@@ -319,7 +324,7 @@
                     <li class="footer__item"><a href="#" class="footer__link">Shipping</a></li>
                     <li class="footer__item"><a href="#" class="footer__link">Returns</a></li>
                     <li class="footer__item"><a href="#" class="footer__link">Contact Us</a></li>
-                    <li class="footer__item"><a href="#" class="footer__link">Refer A Friend/a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Refer A Friend</a></li>
                 </ul>
                 
             </div>
@@ -328,7 +333,31 @@
         </div>
         <div class="footer__bottom">
             <div class="footer__social-logos">
-                Facebook
+                <button class="btn--footer">
+                    <svg class="footer__icon">
+                        <use xlink:href="img/sprite.svg#icon-instagram"></use>
+                    </svg>
+                </button>
+                <button class="btn--footer">
+                    <svg class="footer__icon">
+                        <use xlink:href="img/sprite.svg#icon-facebook"></use>
+                    </svg>
+                </button>
+                <button class="btn--footer">
+                    <svg class="footer__icon">
+                        <use xlink:href="img/sprite.svg#icon-pinterest2"></use>
+                    </svg>
+                </button>
+                <button class="btn--footer">
+                    <svg class="footer__icon">
+                        <use xlink:href="img/sprite.svg#icon-twitter"></use>
+                    </svg>
+                </button>
+                <button class="btn--footer">
+                    <svg class="footer__icon">
+                        <use xlink:href="img/sprite.svg#icon-youtube"></use>
+                    </svg>
+                </button>
             </div>
             <div class="footer__copyright">
                 <p class="footer__copyright__paragraph--bold">&copy; 2020 All Rights Reserved</p>

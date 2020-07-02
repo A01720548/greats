@@ -44,6 +44,7 @@
         background: linear-gradient(to right, black 50%, white 50%);
         background-size: 200% 100%;
         background-position: right bottom;
+        width: 8rem;
 
         &:hover {
             color: white;
@@ -87,4 +88,32 @@
         right: 0;
 
     }
+
+}
+
+
+.btn--inactive {
+
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    width: 13rem;
+    color: rgba(0, 0, 0, 0.5);
+    outline: none;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    margin-bottom: 5rem;
+    transition: all .2s;
+
+    &:hover {
+        color: black;
+    }
+}
+.btn--footer {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-color: rgb(61, 61, 61);
+    border: none;
 }
