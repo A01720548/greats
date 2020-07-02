@@ -98,6 +98,12 @@ body {
 .u-margin-top-big {
   margin-top: 8rem !important; }
 
+.u-margin-top-small {
+  margin-top: 1.5rem !important; }
+
+.u-margin-top-medium {
+  margin-top: 4rem !important; }
+
 .u-margin-top-huge {
   margin-top: 10rem !important; }
 
@@ -133,7 +139,8 @@ body {
     outline: solid 1px white;
     background: linear-gradient(to right, black 50%, white 50%);
     background-size: 200% 100%;
-    background-position: right bottom; }
+    background-position: right bottom;
+    width: 8rem; }
     .btn--white:hover {
       color: white;
       background-position: left bottom; }
@@ -163,6 +170,28 @@ body {
     width: 0;
     right: 0; }
 
+.btn--inactive {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  width: 13rem;
+  color: rgba(0, 0, 0, 0.5);
+  outline: none;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin-bottom: 5rem;
+  transition: all .2s; }
+  .btn--inactive:hover {
+    color: black; }
+
+.btn--footer {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  background-color: #3d3d3d;
+  border: none; }
+
 .section-features {
   font-size: 1.6rem;
   line-height: 2.4rem; }
@@ -185,24 +214,6 @@ body {
   .section-features__link {
     text-decoration: none;
     color: black; }
-
-.section-hero {
-  height: 95vh;
-  width: 100vw;
-  background-image: url(../img/bg-hero.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
-  padding: 3rem; }
-  .section-hero__paragraph {
-    color: white;
-    font-size: 2rem;
-    font-weight: 400;
-    line-height: 3.4rem;
-    padding: 2rem 0;
-    margin-bottom: 2rem; }
 
 .item-showcase {
   font-size: 1.3rem;
@@ -228,12 +239,16 @@ body {
   background-color: black;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   padding: 5rem 0; }
   .footer > * {
     display: flex;
-    justify-content: space-around;
-    margin: 1rem 0; }
+    justify-content: space-between;
+    margin: 5rem 20rem; }
+  .footer__top {
+    justify-content: flex-start; }
+    .footer__top--left {
+      margin-right: auto; }
   .footer__paragraph {
     color: #89898a;
     font-size: 1.3rem;
@@ -245,7 +260,12 @@ body {
     height: 3rem;
     width: 20rem; }
   .footer__list {
-    list-style: none; }
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap; }
+  .footer__item {
+    flex: 0 0 50%;
+    margin-bottom: .7rem; }
   .footer__link {
     text-decoration: none;
     color: #89898a;
@@ -255,19 +275,23 @@ body {
     color: #dbdbdc; }
   .footer__copyright {
     display: flex; }
-    .footer__copyright > *:not(:last-of-type) {
-      margin-right: 1rem; }
     .footer__copyright__paragraph--bold {
       font-weight: 500;
       font-size: 1rem;
       line-height: 1.5rem;
-      color: white; }
+      color: white;
+      margin-right: 1rem; }
     .footer__copyright--link {
       color: #dbdbdc;
       font-size: 1rem;
       line-height: 1.5rem;
       font-weight: 500;
-      text-decoration: none; }
+      text-decoration: none;
+      margin-right: 1rem; }
+  .footer__icon {
+    height: 2rem;
+    width: 2rem;
+    fill: white; }
 
 .header {
   position: fixed;
@@ -304,6 +328,24 @@ body {
     .navigation__logo--black {
       display: none; }
 
+.section-hero {
+  height: 95vh;
+  width: 100vw;
+  background-image: url(../img/bg-hero.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  padding: 10rem; }
+  .section-hero__paragraph {
+    color: white;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3.4rem;
+    padding: 2rem 0;
+    margin-bottom: 2rem; }
+
 .section-best-sellers {
   display: flex;
   flex-direction: column;
@@ -311,6 +353,8 @@ body {
   align-items: center;
   margin-top: 10rem;
   margin-bottom: 10rem; }
+  .section-best-sellers__buttons {
+    display: flex; }
   .section-best-sellers__items {
     display: flex; }
 
@@ -344,6 +388,7 @@ body {
   .section-social__header {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     font-size: 1.6rem;
     line-height: 2.4rem; }
   .section-social__logo-text {
@@ -364,3 +409,7 @@ body {
   .section-social__description {
     font-weight: 400;
     width: 27rem; }
+  .section-social__icon {
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-right: 1rem; }
