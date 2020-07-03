@@ -58,6 +58,8 @@ body {
   font-weight: 700;
   font-size: 3rem;
   line-height: 4rem; }
+  .heading-secondary--white {
+    color: white; }
 
 .heading-tertiary {
   font-family: Helvetica, sans-serif;
@@ -182,8 +184,19 @@ body {
   line-height: 2.4rem;
   margin-bottom: 5rem;
   transition: all .2s; }
-  .btn--inactive:hover {
-    color: black; }
+
+.btn--underlined {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  width: 13rem;
+  color: black;
+  outline: none;
+  border-bottom: 1px solid black;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin-bottom: 5rem; }
 
 .btn--footer {
   height: 5rem;
@@ -227,6 +240,8 @@ body {
     height: 20rem; }
     .item-showcase__img--big {
       height: 30rem; }
+    .item-showcase__img--medium {
+      height: 25rem; }
   .item-showcase__name {
     font-weight: 500; }
   .item-showcase__color {
@@ -234,6 +249,21 @@ body {
     font-style: italic; }
   .item-showcase__price {
     font-weight: 500; }
+
+.form-filter {
+  display: flex;
+  flex-direction: column;
+  padding-left: 3rem; }
+  .form-filter__checkmark {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer; }
 
 .footer {
   background-color: black;
@@ -413,3 +443,43 @@ body {
     width: 1.6rem;
     height: 1.6rem;
     margin-right: 1rem; }
+
+.section-content {
+  display: flex;
+  padding-top: 10rem; }
+  .section-content__left {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 25%; }
+  .section-content__right {
+    display: flex;
+    flex-direction: column; }
+  .section-content__hero {
+    background-image: url(../img/mens-hero.jpg);
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    display: flex;
+    align-items: flex-end;
+    padding: 5rem; }
+  .section-content__products {
+    display: flex;
+    flex-direction: column; }
+    .section-content__products--header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+  .section-content__shoes {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 1 100%; }
+
+.section-page-number {
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0;
+  padding-bottom: 7rem;
+  border-bottom: 1px solid black; }
+  .section-page-number__buttons:not(:last-child) {
+    margin-right: 2rem; }

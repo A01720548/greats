@@ -105,10 +105,23 @@
     line-height: 2.4rem;
     margin-bottom: 5rem;
     transition: all .2s;
+}
 
-    &:hover {
-        color: black;
-    }
+.btn--underlined {
+
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    width: 13rem;
+    color: black;
+    outline: none;
+    border-bottom: 1px solid black;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    margin-bottom: 5rem;
+
+
 }
 .btn--footer {
     height: 5rem;

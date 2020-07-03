@@ -1,0 +1,59 @@
+.section-content {
+    display: flex;
+    padding-top: 10rem;
+
+    &__left {
+        display: flex;
+        flex-direction: column;
+        flex: 0 0 25%;
+    }
+
+    &__right {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    &__hero {
+        background-image: url(../img/mens-hero.jpg);
+        height: 30vh;
+        background-repeat: no-repeat;
+        background-size:  100%;
+        background-position: bottom;
+        display: flex;
+        align-items: flex-end;
+        padding: 5rem;
+    }
+
+    &__products {
+        display: flex;
+        flex-direction: column;
+
+        &--header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+    }
+
+    &__shoes {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 0 1 100%;
+    }
+}
+
+.section-page-number {
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0;
+    padding-bottom: 7rem;
+    border-bottom: 1px solid black;
+
+    &__buttons {
+        &:not(:last-child) {
+            margin-right: 2rem;
+        }
+    }
+}
