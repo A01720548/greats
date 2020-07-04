@@ -1,17 +1,53 @@
 .form-filter {
-    display: flex;
-    flex-direction: column;
-    padding-left: 3rem;
-
-    &__checkmark {
-        width: 1.3em;
-        height: 1.3em;
-        background-color: white;
-        border-radius: 50%;
-        vertical-align: middle;
-        border: 1px solid #ddd;
-        -webkit-appearance: none;
-        outline: none;
-        cursor: pointer;
-    }
+    border-bottom: .5px solid rgba(0, 0, 0, 0.226);
+    padding-bottom: 3rem;
+    margin-right: 6rem;
 }
+
+input[type=checkbox] + label {
+    display: block;
+    margin: 0.2rem;
+    cursor: pointer;
+    padding: 0.2rem;
+  }
+  
+  input[type=checkbox] {
+    display: none;
+  }
+  
+  input[type=checkbox] + label:before {
+    content: "\2714";
+    font-size: 1.2rem;
+    border: .1rem solid #000;
+    border-radius: 50%;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    padding-left: .4rem;
+    padding-bottom: rem;
+    margin-right: 1.5rem;
+    vertical-align: middle;
+    color: transparent;
+    transition: .2s;
+  }
+  
+  input[type=checkbox] + label:active:before {
+    transform: scale(0);
+  }
+  
+  input[type=checkbox]:checked + label:before {
+    background-color: black;
+    border-color: black;
+    color: #fff;
+  }
+  
+  input[type=checkbox]:disabled + label:before {
+    transform: scale(1);
+    border-color: #aaa;
+  }
+  
+  input[type=checkbox]:checked:disabled + label:before {
+    transform: scale(1);
+    background-color: #bfb;
+    border-color: #bfb;
+  }
