@@ -300,11 +300,14 @@ body {
     display: flex;
     justify-content: space-between; }
   .item-showcase__img {
-    height: 20rem; }
+    height: 20rem;
+    width: 20rem; }
     .item-showcase__img--big {
-      height: 30rem; }
+      height: 30rem;
+      width: 30rem; }
     .item-showcase__img--medium {
-      height: 25rem; }
+      height: 25rem;
+      width: 25rem; }
   .item-showcase__name {
     font-weight: 500; }
   .item-showcase__color {
@@ -511,7 +514,10 @@ input[type=checkbox]:checked:disabled + label:before {
     width: 1.3rem;
     fill: white; }
     .navigation__icon--black {
-      display: none; }
+      height: 1.3rem;
+      width: 1.3rem;
+      display: none;
+      fill: black; }
   .navigation--black .navigation__icon {
     height: 1.3rem;
     width: 1.3rem;

@@ -36,7 +36,10 @@
         fill: white;
 
         &--black {
+            height: 1.3rem;
+            width: 1.3rem;
             display: none;
+            fill: black;
         }
     }
 
