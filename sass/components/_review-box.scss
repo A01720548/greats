@@ -1,0 +1,61 @@
+.review-box {
+    display: flex;
+    margin: 5rem 0 5rem 0;
+    padding-bottom: 10rem;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.199);
+
+
+    & > * {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    &__left {
+        margin-right: 5rem;
+    }
+    &__middle {
+        margin-right: auto;
+    }
+
+    &__name,
+    &__verification {
+        font-size: 1.2rem;
+        font-weight: 700;
+        line-height: 1.7rem;
+    }
+
+    &__verification {
+        font-weight: 400;
+    }
+
+    &__stars {
+        margin-top: 3rem;
+        display: flex;
+    }
+
+    &__icon {
+        height: 1rem;
+        width: 1rem;
+        margin: 0 .17rem;
+    }
+
+    &__title,
+    &__paragraph,
+    &__date {
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 1.7rem;
+    }
+
+    &__title {
+        margin-bottom: 2rem;
+        font-weight: 700;
+    }
+
+    &__paragraph {
+        width: 60%;
+    }
+
+}
