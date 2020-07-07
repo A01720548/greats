@@ -105,6 +105,10 @@
     line-height: 2.4rem;
     margin-bottom: 5rem;
     transition: all .2s;
+
+    &--small {
+        width: 2rem;
+    }
 }
 
 .btn--underlined {
@@ -120,6 +124,10 @@
     font-size: 1.6rem;
     line-height: 2.4rem;
     margin-bottom: 5rem;
+
+    &--small {
+        width: 2rem;
+    }
 
 
 }
@@ -180,4 +188,23 @@
     outline: none;
     border: none;
     color: white;
+}
+
+.right-button,
+.left-button,
+.right-button--2,
+.left-button--2 {
+    cursor: pointer;
+    border: none;
+    background-color: black;
+    width: 2rem;
+    height: 2rem;
+    color: white;
+    outline: none;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    border-radius: 50%;
+    padding-bottom: 2.4rem;
+    margin: 0 .5rem;
 }

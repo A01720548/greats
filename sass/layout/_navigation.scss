@@ -18,7 +18,7 @@
         line-height: 1.8rem;
 
         text-decoration: none;
-        color: inherit;
+        color: white;
 
     }
 
@@ -33,6 +33,23 @@
     &__icon {
         height: 1.3rem;
         width: 1.3rem;
+        fill: white;
+
+        &--black {
+            display: none;
+        }
+    }
+
+    &--black {
+        .navigation__icon {
+            height: 1.3rem;
+            width: 1.3rem;
+            fill: black;
+        }
+
+        .navigation__link {
+            color: black;
+        }
     }
 
     

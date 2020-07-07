@@ -1,5 +1,4 @@
 .section-product {
-    padding-top: 10rem;
     display: flex;
 
     & > * {
@@ -34,6 +33,7 @@
     }
 
     &__right {
+        padding-top: 15rem;
         flex: 0 1 35%;
         margin: 0 3rem;
 
@@ -224,5 +224,94 @@
 
     &__right {
         height: 50rem;
+    }
+}
+
+.section-feature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__paragraph {
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 2.4rem;
+        margin-right: 5rem;
+        margin-left: 10rem;
+        position: relative;
+
+        &::before {
+            content: "";
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 5rem;
+            height: 8rem;
+            background-image: url(../img/squiggly-line.png);
+            position: absolute;
+            top: -8rem;
+       
+        }
+
+        &--right {
+            margin-left: 5rem;
+            margin-right: 10rem;
+        }
+    }
+
+    &__right {
+        flex: 0 1 50%;
+    }
+
+    &__img {
+        width: 49.3vw;
+    }
+}
+
+.section-recommendations {
+    margin: 15rem 5rem;
+
+    &__items {
+        display: flex;
+        overflow-x: scroll;
+
+        &::-webkit-scrollbar {
+            display: none;
+          }
+          
+          & {
+            -ms-overflow-style: none;
+            scrollbar-width: none;  
+          }
+    }
+
+    &__scroll-buttons {
+        display: flex;
+        justify-content: flex-end;    
+    }
+
+}
+
+.section-reviews {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 2rem;
+
+    &__icon {
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+}
+
+.section-page-number {
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0;
+    padding-bottom: 7rem;
+    border-bottom: 1px solid black;
+
+    &__buttons {
+        &:not(:last-child) {
+            margin-right: 2rem;
+        }
     }
 }

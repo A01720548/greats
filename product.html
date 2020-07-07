@@ -14,27 +14,35 @@
 </head>
 
 <body>
-    <header class="header header__sticky">
-        <ul class="navigation">
+    <header class="header">
+        <ul class="navigation navigation--black">
             <li class="navigation__item"><a href="#" class="navigation__link">
-                    <img src="img/logo-white.png" alt="Logo-White" class="navigation__logo">
+                    <img src="img/logo-black.png" alt="Logo-White" class="navigation__logo">
                     <img src="img/logo-black.png" alt="Logo-Black" class="navigation__logo navigation__logo--black">
                 </a></li>
             <li class="navigation__item"><a href="#" class="navigation__link">Men</a></li>
             <li class="navigation__item"><a href="#" class="navigation__link">Women</a></li>
         </ul>
-        <ul class="navigation">
+        <ul class="navigation navigation--black">
             <li class="navigation__item"><a href="#" class="navigation__link">The Playbook</a></li>
             <li class="navigation__item"><a href="#" class="navigation__link">Our Story</a></li>
             <li class="navigation__item"><a href="#" class="navigation__link">My Account</a></li>
             <li class="navigation__item"><a href="#" class="navigation__link">
                 <svg class="navigation__icon">
                 <use xlink:href="img/sprite.svg#icon-search"></use>
-            </svg></a></li>             
+            </svg></a></li> 
+            <li class="navigation__item"><a href="#" class="navigation__link">
+                <svg class="navigation__icon navigation__icon--black">
+                <use xlink:href="img/sprite.svg#icon-search"></use>
+            </svg></a></li> 
             <li class="navigation__item"><a href="#" class="navigation__link">
                 <svg class="navigation__icon">
                 <use xlink:href="img/sprite.svg#icon-cart"></use>
-            </svg></a></li> 
+            </svg></a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">
+                <svg class="navigation__icon navigation__icon--black">
+                <use xlink:href="img/sprite.svg#icon-cart"></use>
+                </svg></a></li>
         </ul>
 
 
@@ -45,9 +53,11 @@
             <div class="section-product__left">
                 <img src="img/shoe-big.jpg" alt="Shoe Image" class="section-product__left--img-big">
                 <div class="section-product__left--small-images">
-                    <img src="img/shoe-small1.jpg" alt="Shoe Image Small 1" class="section-product__left--img-small section-product__left--img-small--first">
+                    <img src="img/shoe-small1.jpg" alt="Shoe Image Small 1"
+                        class="section-product__left--img-small section-product__left--img-small--first">
                     <img src="img/shoe-small2.jpg" alt="Shoe Image Small 2" class="section-product__left--img-small">
-                    <img src="img/shoe-small3.jpg" alt="Shoe Image Small 3" class="section-product__left--img-small section-product__left--img-small--last">
+                    <img src="img/shoe-small3.jpg" alt="Shoe Image Small 3"
+                        class="section-product__left--img-small section-product__left--img-small--last">
                     <button class="btn--plus">+</button>
                 </div>
             </div>
@@ -78,7 +88,8 @@
                 </div>
                 <div class="section-product__right--payment">
                     <p class="section-product__right--payment__bold u-margin-bottom-small">Pay $0 Now</p>
-                    <p class="section-product__right--payment__regular">First Payment 2 Weeks from Purchase 4 interest-free installments of $37.25 by Afterpay ⓘ</p>
+                    <p class="section-product__right--payment__regular">First Payment 2 Weeks from Purchase 4
+                        interest-free installments of $37.25 by Afterpay ⓘ</p>
                 </div>
 
                 <div class="section-product__right--color">
@@ -106,33 +117,35 @@
                             <option value="12">12</option>
                             <option value="13">13</option>
                             <option value="14">14</option>
-                          </select>
+                        </select>
 
-                          <button class="btn--cart">Add to Cart</button>
-                          <p class="u-center-text">Free Shipping & Returns</p>
+                        <button class="btn--cart">Add to Cart</button>
+                        <p class="u-center-text">Free Shipping & Returns</p>
                     </form>
-                    
+
                 </div>
                 <div class="section-product__right--more">
                     <div class="section-product__right--more__top">
-                        <p class="section-product__right--more__paragraph section-product__right--more__paragraph--bold">More from Wooster Collection</p>
+                        <p
+                            class="section-product__right--more__paragraph section-product__right--more__paragraph--bold">
+                            More from Wooster Collection</p>
                         <p class="section-product__right--more__paragraph">View All</p>
                     </div>
                     <div class="section-product__right--more__bottom">
 
-                            <figure class="item-box">
-                                <img src="img/item-box1.jpg" alt="Sneaker 1" class="item-box__img">
-                                <figcaption class="item-box__caption u-center-text">
-                                    The Wooster Leather
-                                </figcaption>
-                            </figure>
-                            <figure class="item-box item-box--bold">
-                                <img src="img/item-box2.webp" alt="Sneaker 2" class="item-box__img">
-                                <figcaption class="item-box__caption u-center-text">
-                                    The Wooster Suede
-                                </figcaption>
-                            </figure>
-                        
+                        <figure class="item-box">
+                            <img src="img/item-box1.jpg" alt="Sneaker 1" class="item-box__img">
+                            <figcaption class="item-box__caption u-center-text">
+                                The Wooster Leather
+                            </figcaption>
+                        </figure>
+                        <figure class="item-box item-box--bold">
+                            <img src="img/item-box2.webp" alt="Sneaker 2" class="item-box__img">
+                            <figcaption class="item-box__caption u-center-text">
+                                The Wooster Suede
+                            </figcaption>
+                        </figure>
+
                     </div>
 
                 </div>
@@ -141,24 +154,32 @@
         </section>
         <section class="section-text">
             <div class="section-text__description">
-                <h3 class="heading-tertiary heading-tertiary--bold u-margin-bottom-small">Description</h2>
+                <h3 class="heading-tertiary heading-tertiary--bold u-margin-bottom-small">Description</h3>
                 <p class="section-text__paragraph">
-                    The Suede Slip On Wooster is our version of taking the sneaker way back to the old school, when laceless kicks represented the cutting edge, and then giving them a modern, super luxe upgrade. Whether you’re walking, working, or simply kicking it, the versatile and understated Suede Slip On Wooster is going to get you where you need to go. It might even help you feel better about where you are right now. Every great outfit is built from the ground up. Start here.
+                    The Suede Slip On Wooster is our version of taking the sneaker way back to the old school, when
+                    laceless kicks represented the cutting edge, and then giving them a modern, super luxe upgrade.
+                    Whether you’re walking, working, or simply kicking it, the versatile and understated Suede Slip
+                    On Wooster is going to get you where you need to go. It might even help you feel better about
+                    where you are right now. Every great outfit is built from the ground up. Start here.
                 </p>
             </div>
             <div class="section-text__details">
-                <h2 class="heading-tertiary heading-tertiary--bold u-margin-bottom-small">Details</h2>
-                <ul class="section-text__details--list">
-                    <li class="section-text__details--item">100% natural suede from a locally sourced tannery</li>
-                    <li class="section-text__details--item">Premium footbed with antimicrobial properties and extra cushioning</li>
-                    <li class="section-text__details--item">No virgin plastics ever</li>
-                    <li class="section-text__details--item">Vulcanized outsole with GREATS tread pattern, made with natural rubber</li>
-                    <li class="section-text__details--item">Responsibly sourced materials from local suppliers reduce this collection's carbon footprint</li>
-                </ul>
+                <h2 class="heading-tertiary heading-tertiary--bold u-margin-bottom-small">Details</h3>
+                    <ul class="section-text__details--list">
+                        <li class="section-text__details--item">100% natural suede from a locally sourced tannery</li>
+                        <li class="section-text__details--item">Premium footbed with antimicrobial properties and extra
+                            cushioning</li>
+                        <li class="section-text__details--item">No virgin plastics ever</li>
+                        <li class="section-text__details--item">Vulcanized outsole with GREATS tread pattern, made with
+                            natural rubber</li>
+                        <li class="section-text__details--item">Responsibly sourced materials from local suppliers
+                            reduce
+                            this collection's carbon footprint</li>
+                    </ul>
             </div>
         </section>
 
-        <section class="section-images">
+        <section class="section-images js--section-images">
             <img src="img/left.jpg" alt="Model Picture 1" class="section-images__left">
             <div class="section-images__middle">
                 <img src="img/midTop.jpg" alt="Model Picture 2" class="section-images__middle--img">
@@ -167,8 +188,463 @@
             <img src="img/right.jpg" alt="Model Picture 4" class="section-images__right">
         </section>
 
+        <section class="section-feature">
+            <div>
+                <p class="section-feature__paragraph">Buy Once, Wear Forever <br><br>
+                    Inspired by the clean lines of iconic retro sneakers, the Suede Slip On Wooster has a timeless
+                    silhouette that will outlast all trends. It is biodegradable, made with no virgin plastics
+                    whatsoever, and is handsewn in a top-rated factory that meets the highest levels of labor and
+                    environmental practices.</p>
+            </div>
+            <div>
+                <img src="img/hero-product-1.jpg" alt="Shoe Picture 1" class="section-feature__img">
+            </div>
+        </section>
+        <section class="section-feature">
+            <div>
+                <img src="img/hero-product-2.jpg" alt="Shoe Picture 2" class="section-feature__img">
+            </div>
+            <div>
+                <p class="section-feature__paragraph section-feature__paragraph--right">Get Dressy, Or Messy <br><br>
+                    On the style tip, the Suede Slip On Wooster can be dressed up or down depending on the weather, your
+                    schedule, and of course, your mood. These luxurious sneakers play nice with all the things you
+                    already own, from wild style statement pieces to work-appropriate basics. You can wear them with a
+                    suit, a hoodie, or shorts, it all works!
+            </div>
+
+        </section>
+        <section class="section-feature">
+            <div>
+                <p class="section-feature__paragraph">Leave A Smaller Footprint <br><br>
+                    We’re not perfect, but we are doing our very best to produce our products responsibly. A few details
+                    we are most proud of include 100% recycled cardboard packaging, 100% biodegradable upper and lining,
+                    and responsibly sourced materials.
+
+            </div>
+            <div>
+                <img src="img/hero-product-3.jpg" alt="Shoe Picture 3" class="section-feature__img">
+            </div>
+        </section>
+
+        <section class="section-recommendations">
+            <h3 class="heading-tertiary heading-tertiary--bold u-margin-bottom-small">You May Also Like</h3>
+            <div class="section-recommendations__scroll-buttons">
+                <button class="left-button js--left-button">&LeftAngleBracket;</button>
+                <button class="right-button js--right-button">&RightAngleBracket;</button>
+            </div>
+            <div class="section-recommendations__items js--section-recommendations__items">
+                <figure class="item-showcase">
+                    <img src="img/200528Wooster_0000_LightGrey1_400x.jpg" alt="Shoe 1" class="item-showcase__img">
+                    <figcaption class="item-showcase__caption">
+                        <div>
+                            <p class="item-showcase__name">Wooster Suede</p>
+                            <p class="item-showcase__color">Light Grey</p>
+                        </div>
+                        <div>
+                            <p class="item-showcase__price">179</p>
+                        </div>
+                    </figcaption>
+                </figure>
+                <figure class="item-showcase">
+                    <img src="img/Men-Royale-Navy-854x854-_0000_1_500x.jpg" alt="Shoe 2" class="item-showcase__img">
+                    <figcaption class="item-showcase__caption">
+                        <div>
+                            <p class="item-showcase__name">Royale</p>
+                            <p class="item-showcase__color">Navy</p>
+                        </div>
+                        <div>
+                            <p class="item-showcase__price">179</p>
+                        </div>
+                    </figcaption>
+                </figure>
+                <figure class="item-showcase">
+                    <img src="img/Mens-192-RoyaleKnit-EnviroKnit-Navy-White-RENW-Product-101_500x.jpg" alt="Mask 1"
+                        class="item-showcase__img">
+
+                    <figcaption class="item-showcase__caption">
+                        <div>
+                            <p class="item-showcase__name">Royale</p>
+                            <p class="item-showcase__color">Knit Navy</p>
+                        </div>
+                        <div>
+                            <p class="item-showcase__price">179</p>
+                        </div>
+                    </figcaption>
+                </figure>
+                <figure class="item-showcase">
+                    <img src="img/Mens-192-Court-Classic-TripleBlack-COXX-Product-102_500x.jpg" alt="Mask 2"
+                        class="item-showcase__img">
+
+                    <figcaption class="item-showcase__caption">
+                        <div>
+                            <p class="item-showcase__name">Classic</p>
+                            <p class="item-showcase__color">Triple Black</p>
+                        </div>
+                        <div>
+                            <p class="item-showcase__price">179</p>
+                        </div>
+                    </figcaption>
+                </figure>
+                <figure class="item-showcase">
+                    <img src="img/Mens-193-Royale-Blanco-3RMW-Product-101_56ecf38d-038c-4e43-b28c-b50c5988d806_400x.jpg"
+                        alt="Shoe 3" class="item-showcase__img">
+
+                    <figcaption class="item-showcase__caption">
+                        <div>
+                            <p class="item-showcase__name">Royale</p>
+                            <p class="item-showcase__color">Blanco</p>
+                        </div>
+                        <div>
+                            <p class="item-showcase__price">179</p>
+                        </div>
+                    </figcaption>
+                </figure>
+                <figure class="item-showcase">
+                    <img src="img/Mens-193-Royale-Nero-3RBW-Product-101_9125bc7e-1241-44d3-b74f-61bc40afbcb9_500x.jpg"
+                        alt="Shoe 4" class="item-showcase__img">
+
+                    <figcaption class="item-showcase__caption">
+                        <div>
+                            <p class="item-showcase__name">Royale</p>
+                            <p class="item-showcase__color">Nero</p>
+                        </div>
+                        <div>
+                            <p class="item-showcase__price">179</p>
+                        </div>
+                    </figcaption>
+                </figure>
+                <figure class="item-showcase">
+                    <img src="img/Mens-193-Royale-Cuoio-3RCU-Product-101_500x.jpg" alt="Shoe 5"
+                        class="item-showcase__img">
+
+                    <figcaption class="item-showcase__caption">
+                        <div>
+                            <p class="item-showcase__name">Royale</p>
+                            <p class="item-showcase__color">Cuoio</p>
+                        </div>
+                        <div>
+                            <p class="item-showcase__price">179</p>
+                        </div>
+                    </figcaption>
+                </figure>
+                <figure class="item-showcase">
+                    <img src="img/Mens-193-Royale-Chocolate-2RCH-Product-101_small.jpg" alt="Shoe 6"
+                        class="item-showcase__img">
+
+                    <figcaption class="item-showcase__caption">
+                        <div>
+                            <p class="item-showcase__name">Royale</p>
+                            <p class="item-showcase__color">Chocolate</p>
+                        </div>
+                        <div>
+                            <p class="item-showcase__price">179</p>
+                        </div>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="section-reviews">
+            <div class="section-reviews__stars">
+                <svg class="section-reviews__icon">
+                    <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                </svg>
+                <svg class="section-reviews__icon">
+                    <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                </svg>
+                <svg class="section-reviews__icon">
+                    <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                </svg>
+                <svg class="section-reviews__icon">
+                    <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                </svg>
+                <svg class="section-reviews__icon">
+                    <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                </svg>
+            </div>
+            <h3 class="heading-tertiary heading-tertiary--bold u-margin-bottom-small">178 Reviews</h3>
+
+            <div class="review-box">
+                <div class="review-box__left">
+                    <p class="review-box__name">Garret T.</p>
+                    <p class="review-box__verification">Verified Buyer</p>
+                    <div class="review-box__stars">
+                        <svg class="review-box__icon">
+                            <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg class="review-box__icon">
+                            <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg class="review-box__icon">
+                            <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg class="review-box__icon">
+                            <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg class="review-box__icon">
+                            <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="review-box__middle">
+                    <p class="review-box__title">My new Shoes</p>
+                    <p class="review-box__paragraph">I was surprised on how quickly I got my shoes. The quality is
+                        great! And the box they came in was extra special. Shipping I have to add was super quick. I
+                        will purchase again in the future</p>
+                </div>
+                <div class="review-box__right">
+                    <p class="review-box__date">12/09/19</p>
+                </div>
+            </div>
+
+            <div class="review-box">
+                <div class="review-box__left">
+                    <p class="review-box__name">Timoty M.</p>
+                    <p class="review-box__verification">Verified Buyer</p>
+                    <div class="review-box__stars">
+                        <svg class="review-box__icon">
+                            <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg class="review-box__icon">
+                            <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg class="review-box__icon">
+                            <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg class="review-box__icon">
+                            <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg class="review-box__icon">
+                            <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="review-box__middle">
+                    <p class="review-box__title">Bring back The Wooster</p>
+                    <p class="review-box__paragraph">I have very much enjoyed all of my Greats purchases (8 pairs), yet
+                        would love to have you bring The Wooster back form banishment. </p>
+                </div>
+                <div class="review-box__right">
+                    <p class="review-box__date">12/09/19</p>
+                </div>
+            </div>
+            <div class="review-box">
+                <div class="review-box__left">
+                    <p class="review-box__name">Christopher L.</p>
+                    <p class="review-box__verification">Verified Buyer</p>
+                    <div class="review-box__stars">
+                        <svg class="review-box__icon">
+                            <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg class="review-box__icon">
+                            <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg class="review-box__icon">
+                            <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg class="review-box__icon">
+                            <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg class="review-box__icon">
+                            <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="review-box__middle">
+                    <p class="review-box__title">GREATS</p>
+                    <p class="review-box__paragraph">Grrrrrreat!</p>
+                </div>
+                <div class="review-box__right">
+                    <p class="review-box__date">12/09/19</p>
+                </div>
+            </div>
+            <div class="review-box">
+                <div class="review-box__left">
+                    <p class="review-box__name">Jeff Z.</p>
+                    <p class="review-box__verification">Verified Buyer</p>
+                    <div class="review-box__stars">
+                        <svg class="review-box__icon">
+                            <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg class="review-box__icon">
+                            <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg class="review-box__icon">
+                            <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg class="review-box__icon">
+                            <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg class="review-box__icon">
+                            <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="review-box__middle">
+                    <p class="review-box__title">Great color!!</p>
+                    <p class="review-box__paragraph">Exactly what I expected; bought on a whim and like them. Run large
+                        exactly as state. Will probably buy more the next time they are on sale.</p>
+                </div>
+                <div class="review-box__right">
+                    <p class="review-box__date">12/09/19</p>
+                </div>
+            </div>
+
+
+
+            <div class="review-box">
+                <div class="review-box__left">
+                    <p class="review-box__name">Carrie M.</p>
+                    <p class="review-box__verification">Verified Buyer</p>
+                    <div class="review-box__stars">
+                        <svg class="review-box__icon">
+                            <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg class="review-box__icon">
+                            <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg class="review-box__icon">
+                            <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg class="review-box__icon">
+                            <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg class="review-box__icon">
+                            <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="review-box__middle">
+                    <p class="review-box__title">Very comfortable!</p>
+                    <p class="review-box__paragraph">The color and suede looks great, and like my other GREATS they are
+                        my go to shoes.</p>
+                </div>
+                <div class="review-box__right">
+                    <p class="review-box__date">12/09/19</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-page-number">
+            <div class="section-page-number__buttons">
+                <button class="btn--arrow">&LeftAngleBracket;</button>
+                <button class="btn--underlined btn--underlined--small">1</button>
+                <button class="btn--inactive btn--inactive--small">2</button>
+                <button class="btn--inactive btn--inactive--small">3</button>
+                <button class="btn--inactive btn--inactive--small">4</button>
+                <button class="btn--inactive btn--inactive--small">5</button>
+                <button class="btn--inactive btn--inactive--small">6</button>
+                <button class="btn--inactive btn--inactive--small">7</button>
+                <button class="btn--inactive btn--inactive--small">8</button>
+                <button class="btn--inactive btn--inactive--small">9</button>
+                <button class="btn--arrow">&RightAngleBracket;</button>
+            </div>
+        </section>
+
+
+        <section class="section-social">
+            <div class="section-social__options">
+                <div class="section-social__option">
+                    <p class="section-social__name">Free Shipping & Returns</p>
+                    <p class="section-social__description">Big Style, No Risk. Free Shipping + Returns On All Orders</p>
+                </div>
+                <div class="section-social__option">
+                    <p class="section-social__name">Refer A Friend</p>
+                    <p class="section-social__description">Sing Our Praises, Save Big</p>
+                </div>
+                <div class="section-social__option">
+                    <p class="section-social__name">Customer Service</p>
+                    <p class="section-social__description">If the Shoe doesn't fit... drop us a line! Questions?
+                        Concerns? Compliments? We are here for you via email, text, or chat.</p>
+                </div>
+            </div>
+
+
+        </section>
+
 
     </main>
+
+    <footer class="footer">
+        <div class="footer__top">
+            <div class="footer__top--left">
+                <h3 class="heading-quarternary u-margin-bottom-small">Get Updates</h3>
+                <p class="footer__paragraph u-margin-bottom-small">Sign up for Greats news and receive 25% <br> off your
+                    first purchase.</p>
+                <form action="#" class="footer__form">
+                    <input type="email" class="footer__form--input" id="email" placeholder="Email Address">
+                    <button class="btn btn--white">Sign Up</button>
+                </form>
+            </div>
+            <div class="footer__top--middle">
+                <h5 class="heading-fifth u-margin-bottom-small">About Us</h5>
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="#" class="footer__link">Our Story</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Responsibility</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Visit Us</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Reviews</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Affiliates</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">The Playbook</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__top--right">
+                <h5 class="heading-fifth u-margin-bottom-small">Customer Service</h5>
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="#" class="footer__link">Live Chat</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">FAQ</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Size Guide</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Shipping</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Returns</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Contact Us</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Refer A Friend</a></li>
+                </ul>
+
+            </div>
+
+
+        </div>
+        <div class="footer__bottom">
+            <div class="footer__social-logos">
+                <button class="btn--footer">
+                    <svg class="footer__icon">
+                        <use xlink:href="img/sprite.svg#icon-instagram"></use>
+                    </svg>
+                </button>
+                <button class="btn--footer">
+                    <svg class="footer__icon">
+                        <use xlink:href="img/sprite.svg#icon-facebook"></use>
+                    </svg>
+                </button>
+                <button class="btn--footer">
+                    <svg class="footer__icon">
+                        <use xlink:href="img/sprite.svg#icon-pinterest"></use>
+                    </svg>
+                </button>
+                <button class="btn--footer">
+                    <svg class="footer__icon">
+                        <use xlink:href="img/sprite.svg#icon-twitter"></use>
+                    </svg>
+                </button>
+                <button class="btn--footer">
+                    <svg class="footer__icon">
+                        <use xlink:href="img/sprite.svg#icon-youtube"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="footer__copyright">
+                <p class="footer__copyright__paragraph--bold">&copy; 2020 All Rights Reserved</p>
+                <a href="#" class="footer__copyright--link">Accessibility</a>
+                <a href="#" class="footer__copyright--link">Terms & Conditions</a>
+                <a href="#" class="footer__copyright--link">Privacy Policy</a>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/scripts.js"></script>
 
 </body>
 

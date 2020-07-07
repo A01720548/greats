@@ -7,16 +7,27 @@
     transition: background-color .2s;
 
     &__sticky {
+        z-index: 9999;
         background-color: white;
-        color: black;
+
+        .navigation__link {
+            color: black;
+        }
 
         .navigation__logo {
             display: none;
 
             &--black {
                 display: block;
+            }
         }
-    }
+        .navigation__icon {
+            display: none;
+
+            &--black {
+                display: block;
+            }
+        }
 
     }
 

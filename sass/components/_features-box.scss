@@ -3,9 +3,6 @@
     font-size: 1.6rem;
     line-height: 2.4rem;
 
-    &:not(:last-child) {
-        margin-right: 1.5rem;
-    }
 
     &__caption {
         display: flex;
@@ -29,6 +26,7 @@
         width: 50rem;
         height: 35rem;
         object-fit: cover;
+        margin-right: 1.5rem;
     }
 
     &__link {

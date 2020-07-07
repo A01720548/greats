@@ -32,9 +32,18 @@
                 <use xlink:href="img/sprite.svg#icon-search"></use>
             </svg></a></li> 
             <li class="navigation__item"><a href="#" class="navigation__link">
+                <svg class="navigation__icon navigation__icon--black">
+                <use xlink:href="img/sprite.svg#icon-search"></use>
+            </svg></a></li> 
+            <li class="navigation__item"><a href="#" class="navigation__link">
                 <svg class="navigation__icon">
                 <use xlink:href="img/sprite.svg#icon-cart"></use>
-            </svg></a></li>         </ul>
+            </svg></a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">
+                <svg class="navigation__icon navigation__icon--black">
+                <use xlink:href="img/sprite.svg#icon-cart"></use>
+                </svg></a></li>         
+        </ul>
 
 
     </header>
@@ -56,7 +65,11 @@
                 <button class="btn--inactive">Women's</button>
             </div>
             <h3 class="heading-tertiary u-margin-bottom-medium">Check out our best sellers.</h3>
-            <div class="section-best-sellers__items">
+            <div class="section-best-sellers__scroll-buttons">
+                <button class="left-button js--left-button">&LeftAngleBracket;</button>
+                <button class="right-button js--right-button">&RightAngleBracket;</button>
+            </div>
+            <div class="section-best-sellers__items js--section-best-sellers__items">
                 <figure class="item-showcase">
                     <img src="img/200528Wooster_0000_LightGrey1_400x.jpg" alt="Shoe 1"
                         class="item-showcase__img" >
@@ -183,8 +196,11 @@
                     <p class="section-the-court__paragraph u-margin-bottom-big">You won't need to dunk on anyone to look great in these '90s
                         basketball-inspired kicks.</p>
                 </div>
-
-                <div class="section-the-court__right--bottom">
+                <div class="section-the-court__scroll-buttons">
+                    <button class="left-button--2">&LeftAngleBracket;</button>
+                    <button class="right-button--2">&RightAngleBracket;</button>
+                </div>
+                <div class="section-the-court__right--bottom js--section-the-court__right--bottom">
                     <figure class="item-showcase">
                         <img src="img/Mens-192-Court-Classic-Blanco-Grey-COWT-Product-101_400x.jpg" alt="Shoe 1"
                             class="item-showcase__img item-showcase__img--big">
@@ -197,7 +213,7 @@
                         <div>
                             <p class="item-showcase__price">179</p>
                         </div>
-                    </figcaption>
+                        </figcaption>
                     </figure>
                     <figure class="item-showcase">
                         <img src="img/Mens-193-Court-Classic-Grey-COGG-Product-101_500x.jpg" alt="Shoe 2"
@@ -211,7 +227,49 @@
                         <div>
                             <p class="item-showcase__price">179</p>
                         </div>
-                    </figcaption>
+                        </figcaption>
+                    </figure>
+                    <figure class="item-showcase">
+                        <img src="img/Mens-192-Court-Classic-Nero-COBL-Product-101_500x.jpg" alt="Shoe 3"
+                            class="item-showcase__img item-showcase__img--big">
+
+                        <figcaption class="item-showcase__caption">
+                        <div>
+                            <p class="item-showcase__name">Court</p>
+                            <p class="item-showcase__color">Nero</p>
+                        </div>
+                        <div>
+                            <p class="item-showcase__price">179</p>
+                        </div>
+                        </figcaption>
+                    </figure>
+                    <figure class="item-showcase">
+                        <img src="img/Mens-192-Court-Classic-Cuoio-COCU-Product-101_500x.jpg" alt="Shoe 4"
+                            class="item-showcase__img item-showcase__img--big">
+
+                        <figcaption class="item-showcase__caption">
+                        <div>
+                            <p class="item-showcase__name">Court</p>
+                            <p class="item-showcase__color">Grey</p>
+                        </div>
+                        <div>
+                            <p class="item-showcase__price">179</p>
+                        </div>
+                        </figcaption>
+                    </figure>
+                    <figure class="item-showcase">
+                        <img src="img/Mens-192-Court-Classic-TripleBlack-COXX-Product-101_500x.jpg" alt="Shoe 5"
+                            class="item-showcase__img item-showcase__img--big">
+
+                        <figcaption class="item-showcase__caption">
+                        <div>
+                            <p class="item-showcase__name">Court</p>
+                            <p class="item-showcase__color">Grey</p>
+                        </div>
+                        <div>
+                            <p class="item-showcase__price">179</p>
+                        </div>
+                        </figcaption>
                     </figure>
                 </div>
 
@@ -350,7 +408,7 @@
                 </button>
                 <button class="btn--footer">
                     <svg class="footer__icon">
-                        <use xlink:href="img/sprite.svg#icon-pinterest2"></use>
+                        <use xlink:href="img/sprite.svg#icon-pinterest"></use>
                     </svg>
                 </button>
                 <button class="btn--footer">
