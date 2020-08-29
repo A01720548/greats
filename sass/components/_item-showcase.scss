@@ -1,6 +1,8 @@
 .item-showcase {
     font-size: 1.3rem;
     line-height: 1.8rem;
+    scroll-snap-align: start;
+
 
 
     &:not(:last-child) {
